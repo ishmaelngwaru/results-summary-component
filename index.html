@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <!--css-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="outerBox">
+    <!--inner box and its content-->
+    <div class="innerBox">
+      <h2 class="innerBoxResultH2">Your Result</h2>
+      <div class="cycleDiv">
+        <h2 class="score">72</h2>
+        <h4 class="results" >of 100</h4>
+      </div>
+      <h2 class="greath2">Great</h2>
+      <p class="scorePara">
+        You scored higher than 65% of
+        the people who have taken
+        these tests.
+      </p>
+    </div>
+    <!--outer box content-->
+    <h2 class="summaryH2">Summary</h2>
+    <!--reaction box-->
+    <div class="reactionBox">
+      <img class="reactionSvg" src="./icon-reaction.svg">
+      <p class="reactionPara">Reaction</p>
+      <p class="reactionParaRate">80 <span>/ 100</span></p>
+    </div>
+
+    <!--memmory box-->
+    <div class="memoryBox">
+      <img class="memorySvg" src="./icon-memory.svg">
+      <p class="memoryPara">Memory</p>
+      <p class="memoryParaRate">92 <span>/ 100</span></p>
+    </div>
+    <!--verbal box-->
+    <div class="verbalBox">
+      <img class="verbalSvg" src="./icon-verbal.svg">
+      <p class="verbalPara">Verbal</p>
+      <p class="verbalParaRate">61 <span>/ 100</span></p>
+    </div>
+    <!--visual box-->
+    <div class="visualBox">
+      <img class="visualSvg" src="./icon-visual.svg">
+      <p class="visualPara">Visual</p>
+      <p class="visualParaRate">72 <span>/ 100</span></p>
+    </div>
+    <!--button-->
+    <button class="button" type="button">Continue</button>
+  </div>
+</body>
+</html>
